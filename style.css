@@ -1,0 +1,148 @@
+/* Primary style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    width: 1600px;
+    margin: auto;
+}
+section{
+    width: 1140px;
+    margin: 95px auto;
+}
+.primary-button {
+    padding: 10px 23px;
+    border: none;
+    border-radius: 5px;
+    color: #ee6c00;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffff;
+}
+.defoult-title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.defoult-p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #454545;
+    margin-bottom: 15px;
+}
+/*  */
+/* Header stylee */
+header{
+    margin-bottom: 65px;
+}
+.header-parent {
+    background-image: url('./images/banner/banner2.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header-content {
+    text-align: right;
+    padding: 0 186px;
+    width: 407px;
+}
+.header-title {
+    font-size: 60px;
+    line-height: 69px;
+    margin-bottom: 12px;
+}
+.header-button{
+    padding: 10px 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ee6c00;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+}
+/*  */
+/* My failur section style */
+.failures-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.failure-content {
+    padding: 0 84px;
+}
+.failure-list li {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.failure-list {
+    margin-left: 20px;
+}
+/*  */
+
+/* My plan section style */
+.my-plan-parent {
+    text-align: center;
+}
+.plan-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 47px 0;
+}
+.planbox-item h3 {
+    font-size: 26px;
+    margin: 18px 0 13px 0;
+}
+/*  */
+
+/* Positive mindset section style */
+.positive-container {
+    background-image: linear-gradient(to left, rgb(201 207 239 / 52%), rgb(243 17 188 / 73%)), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 81px;
+}
+.positive-container .defoult-title{
+    color: #ffff;
+}
+.footer-parent {
+    background-color: #101010;
+    padding: 68px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content {
+    width: 505px;
+}
+.footer-content h2{
+    color: #ffff;
+}
+.footer-content p{
+    color: #ffff;
+}
+.icon-box img{
+    margin-right: 10px;
+}
+/* Footer subscribe style */
+.footer-subscribe h3{
+    color: #ffff;
+    font-size: 22px;
+}
+.subscribe-input {
+    height: 24px;
+    width: 196px;
+    border: 1px solid #4e4d4d;
+    border-radius: 5px;
+    margin: 23px 0px 10px 0px;
+    padding: 13px;
+    background-color: #101010;
+}
+/*  */
+/*  */
