@@ -13,13 +13,14 @@ section{
     margin: 140px auto;
 }
 .primary-button {
-    padding: 14px 23px;
+    padding: 14px 22px;
     border: none;
     border-radius: 5px;
     color: #ee6c00;
     font-size: 20px;
     font-weight: 600;
     background-color: #ffff;
+    display: block;
 }
 .primary-button2{
     padding: 14px 23px;
@@ -166,7 +167,7 @@ header{
     width: 196px;
     border: 1px solid #4e4d4d;
     border-radius: 5px;
-    margin: 23px 0px 10px 0px;
+    margin: 23px 0px 18px 0px;
     padding: 13px;
     background-color: #101010;
 }
